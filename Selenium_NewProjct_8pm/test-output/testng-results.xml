@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49871" started-at="2021-11-29T21:07:37 IST" finished-at="2021-11-29T21:08:27 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49871" started-at="2021-11-29T21:07:37 IST" finished-at="2021-11-29T21:08:27 IST">
+      <class name="TestNG.ExcelReader">
+        <test-method status="PASS" signature="LanchingBrowser()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="LanchingBrowser" is-config="true" duration-ms="11307" started-at="2021-11-29T21:07:38 IST" finished-at="2021-11-29T21:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanchingBrowser -->
+        <test-method status="PASS" signature="GoogleTest()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="GoogleTest" duration-ms="27744" started-at="2021-11-29T21:07:49 IST" finished-at="2021-11-29T21:08:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTest -->
+        <test-method status="PASS" signature="GoogleTest()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="GoogleTest" duration-ms="9907" started-at="2021-11-29T21:08:17 IST" finished-at="2021-11-29T21:08:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTest -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="closingBrowser" is-config="true" duration-ms="799" started-at="2021-11-29T21:08:27 IST" finished-at="2021-11-29T21:08:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- TestNG.ExcelReader -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
