@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.ExcelReader">
+      <class name="TestNG.DataProvider_Example">
         <methods>
-          <include name="closingBrowser"/>
-          <include name="LanchingBrowser"/>
-          <include name="GoogleTest"/>
+          <include name="browserLanch"/>
+          <include name="closingbrowser"/>
+          <include name="logintest"/>
         </methods>
-      </class> <!-- TestNG.ExcelReader -->
+      </class> <!-- TestNG.DataProvider_Example -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

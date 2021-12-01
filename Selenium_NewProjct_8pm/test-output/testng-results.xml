@@ -1,29 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49871" started-at="2021-11-29T21:07:37 IST" finished-at="2021-11-29T21:08:27 IST">
+  <suite name="Default suite" duration-ms="22247" started-at="2021-12-01T20:56:06 IST" finished-at="2021-12-01T20:56:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49871" started-at="2021-11-29T21:07:37 IST" finished-at="2021-11-29T21:08:27 IST">
-      <class name="TestNG.ExcelReader">
-        <test-method status="PASS" signature="LanchingBrowser()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="LanchingBrowser" is-config="true" duration-ms="11307" started-at="2021-11-29T21:07:38 IST" finished-at="2021-11-29T21:07:49 IST">
+    <test name="Default test" duration-ms="22247" started-at="2021-12-01T20:56:06 IST" finished-at="2021-12-01T20:56:28 IST">
+      <class name="TestNG.DataProvider_Example">
+        <test-method status="PASS" signature="browserLanch()[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="browserLanch" is-config="true" duration-ms="8272" started-at="2021-12-01T20:56:06 IST" finished-at="2021-12-01T20:56:15 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LanchingBrowser -->
-        <test-method status="PASS" signature="GoogleTest()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="GoogleTest" duration-ms="27744" started-at="2021-11-29T21:07:49 IST" finished-at="2021-11-29T21:08:17 IST">
+        </test-method> <!-- browserLanch -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="3503" started-at="2021-12-01T20:56:15 IST" data-provider="testdata" finished-at="2021-12-01T20:56:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajith@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoogleTest -->
-        <test-method status="PASS" signature="GoogleTest()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="GoogleTest" duration-ms="9907" started-at="2021-11-29T21:08:17 IST" finished-at="2021-11-29T21:08:27 IST">
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="1036" started-at="2021-12-01T20:56:18 IST" data-provider="testdata" finished-at="2021-12-01T20:56:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bindhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bindhu@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoogleTest -->
-        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:TestNG.ExcelReader@10dba097]" name="closingBrowser" is-config="true" duration-ms="799" started-at="2021-11-29T21:08:27 IST" finished-at="2021-11-29T21:08:27 IST">
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="1362" started-at="2021-12-01T20:56:19 IST" data-provider="testdata" finished-at="2021-12-01T20:56:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajith@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closingBrowser -->
-      </class> <!-- TestNG.ExcelReader -->
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="967" started-at="2021-12-01T20:56:21 IST" data-provider="testdata" finished-at="2021-12-01T20:56:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bindhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bindhu@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="964" started-at="2021-12-01T20:56:21 IST" data-provider="testdata" finished-at="2021-12-01T20:56:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajith@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="944" started-at="2021-12-01T20:56:22 IST" data-provider="testdata" finished-at="2021-12-01T20:56:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bindhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bindhu@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="1218" started-at="2021-12-01T20:56:23 IST" data-provider="testdata" finished-at="2021-12-01T20:56:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajith@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="1119" started-at="2021-12-01T20:56:25 IST" data-provider="testdata" finished-at="2021-12-01T20:56:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bindhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bindhu@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="1085" started-at="2021-12-01T20:56:26 IST" data-provider="testdata" finished-at="2021-12-01T20:56:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajith@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="logintest" duration-ms="1076" started-at="2021-12-01T20:56:27 IST" data-provider="testdata" finished-at="2021-12-01T20:56:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bindhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bindhu@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:TestNG.DataProvider_Example@3578436e]" name="closingbrowser" is-config="true" duration-ms="574" started-at="2021-12-01T20:56:28 IST" finished-at="2021-12-01T20:56:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- TestNG.DataProvider_Example -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
